@@ -2204,9 +2204,9 @@ if ("development" !== "production") {
 'use strict';
 
 if ("development" === 'production') {
-  module.exports = require('./cjs/react.production.min.js');
+  module.exports = require('./cjs/react.production.min.js.js');
 } else {
-  module.exports = require('./cjs/react.development.js');
+  module.exports = require('./cjs/react.development.js.js');
 }
 },{"./cjs/react.development.js":"../node_modules/react/cjs/react.development.js"}],"../node_modules/scheduler/cjs/scheduler.development.js":[function(require,module,exports) {
 /** @license React v0.19.1
@@ -3067,9 +3067,9 @@ if ("development" !== "production") {
 'use strict';
 
 if ("development" === 'production') {
-  module.exports = require('./cjs/scheduler.production.min.js');
+  module.exports = require('./cjs/scheduler.production.min.js.js');
 } else {
-  module.exports = require('./cjs/scheduler.development.js');
+  module.exports = require('./cjs/scheduler.development.js.js');
 }
 },{"./cjs/scheduler.development.js":"../node_modules/scheduler/cjs/scheduler.development.js"}],"../node_modules/scheduler/cjs/scheduler-tracing.development.js":[function(require,module,exports) {
 /** @license React v0.19.1
@@ -3423,9 +3423,9 @@ if ("development" !== "production") {
 'use strict';
 
 if ("development" === 'production') {
-  module.exports = require('./cjs/scheduler-tracing.production.min.js');
+  module.exports = require('./cjs/scheduler-tracing.production.min.js.js');
 } else {
-  module.exports = require('./cjs/scheduler-tracing.development.js');
+  module.exports = require('./cjs/scheduler-tracing.development.js.js');
 }
 },{"./cjs/scheduler-tracing.development.js":"../node_modules/scheduler/cjs/scheduler-tracing.development.js"}],"../node_modules/react-dom/cjs/react-dom.development.js":[function(require,module,exports) {
 /** @license React v16.13.1
@@ -28281,9 +28281,9 @@ if ("development" === 'production') {
   // DCE check should happen before ReactDOM bundle executes so that
   // DevTools can report bad minification during injection.
   checkDCE();
-  module.exports = require('./cjs/react-dom.production.min.js');
+  module.exports = require('./cjs/react-dom.production.min.js.js');
 } else {
-  module.exports = require('./cjs/react-dom.development.js');
+  module.exports = require('./cjs/react-dom.development.js.js');
 }
 },{"./cjs/react-dom.development.js":"../node_modules/react-dom/cjs/react-dom.development.js"}],"../node_modules/axios/lib/helpers/bind.js":[function(require,module,exports) {
 'use strict';
