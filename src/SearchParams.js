@@ -19,22 +19,21 @@ const SearchParams = () => {
 
   return (
     <div className="search-params">
-      <h2>{location}</h2>
+      <h2> {location} </h2>{" "}
       <form>
         <label htmlFor="location">
-          location
+          location{" "}
           <input
             id="location"
             value={location}
             placeholder="Location"
             onChange={(e) => setLocation(e.target.value)}
-          />
+          />{" "}
         </label>
-
         <AnimalDropdown />
         <BreedDropdown />
-        <button>Submit</button>
-      </form>
+        <button> Submit </button>{" "}
+      </form>{" "}
     </div>
   );
 };
