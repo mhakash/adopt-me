@@ -5,7 +5,8 @@ const useDropdown = (label, defaultStatus, options) => {
   const id = `use-dropdown-${label.replace(" ", "").toLowerCase()}`;
   const Dropdown = () => (
     <label htmlFor={id}>
-      {label}
+      {" "}
+      {label}{" "}
       <select
         id={id}
         value={state}
@@ -13,13 +14,14 @@ const useDropdown = (label, defaultStatus, options) => {
         onBlur={(e) => setState(e.target.value)}
         disabled={options.length === 0}
       >
-        <option>All</option>
+        <option> All </option>{" "}
         {options.map((item) => (
           <option key={item} value={item}>
-            {item}
+            {" "}
+            {item}{" "}
           </option>
-        ))}
-      </select>
+        ))}{" "}
+      </select>{" "}
     </label>
   );
 
