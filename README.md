@@ -2,7 +2,7 @@
 
 react app for learning from frontendmasters
 
-## Learings
+## Learnings
 
 * pure react only with cdn
 * Eslint and Preetier
